@@ -56,3 +56,6 @@ SELECT
       ROUND(PERCENTILE_APPROX(CAST(nonull_CO as FLOAT), 0.5), 2) median_CO,
       ROUND(PERCENTILE_APPROX(CAST(nonull_BF as FLOAT), 0.5), 2) median_BF,
 FROM review_nonull;
+
+
+
